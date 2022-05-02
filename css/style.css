@@ -252,11 +252,16 @@ p {
     margin-bottom: 30px;
 }
 
+.team__photo:hover {
+    transform: scale(1.1);
+}
+
 .team__photo {
     display: block;
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
+    transition: .1s linear;
 }
 
 .team__name {
